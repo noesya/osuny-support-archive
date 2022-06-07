@@ -1,14 +1,17 @@
 baseURL = "/"
-title = "Goldydocs"
+title = "Osuny"
 
 # Language settings
-contentDir = "content/en"
-defaultContentLanguage = "en"
+contentDir = "content/fr"
+defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
 
 enableRobotsTXT = true
+
+# Hugo allows theme composition (and inheritance). The precedence is from left to right.
+theme = ["docsy"]
 
 # Will give values to .Lastmod etc.
 enableGitInfo = true
@@ -66,27 +69,12 @@ id = "UA-00000000-0"
 # Language configuration
 
 [languages]
-[languages.en]
-title = "Goldydocs"
-description = "A Docsy example site"
-languageName ="English"
+[languages.fr]
+title = "Osuny"
+description = "Espace développeurs Osuny"
+languageName ="Français"
 # Weight used for sorting.
 weight = 1
-[languages.no]
-title = "Goldydocs"
-description = "Docsy er operativsystem for skyen"
-languageName ="Norsk"
-contentDir = "content/no"
-time_format_default = "02.01.2006"
-time_format_blog = "02.01.2006"
-
-[languages.fa]
-title = "اسناد گلدی"
-description = "یک نمونه برای پوسته داکسی"
-languageName ="فارسی"
-contentDir = "content/fa"
-time_format_default = "2006.01.02"
-time_format_blog = "2006.01.02"
 
 [markup]
   [markup.goldmark]
