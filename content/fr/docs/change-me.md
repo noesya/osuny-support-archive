@@ -22,3 +22,5 @@ Edit this template to create your new page.
 ### Titre 3
 
 Exemple _de_ **texte** 
+
+![acrylic-paint-abstract-texture-5-1024x710](https://user-images.githubusercontent.com/4630530/179517211-3864befb-2abb-492c-ae54-970ac1ac9be3.jpeg)
